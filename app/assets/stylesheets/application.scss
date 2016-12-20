@@ -20,7 +20,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
 #banner {
   position: relative;
-  min-height: 40px;
+  min-height: 60px;
   background: #9c9;
   padding: 10px;
   border-bottom: 2px solid;
@@ -32,7 +32,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
     position: absolute;
     top: 0; 
     left: 0;
-    width: 192px;
+    height: 80px;
   }
 }
 
@@ -61,7 +61,8 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
 //
   #side {
-    padding: 1em 2em;
+    width: 120px;
+    padding: 1em 1em;
     background: #141;
 
     form, div {

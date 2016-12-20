@@ -18,7 +18,7 @@ en:
 
   layouts:
     application:
-      title:       "The Pragmatic Bookshelf"
+      title:       "Fruit Store"
       home:        "Home"
       questions:   "Questions"
       news:        "News"
@@ -32,7 +32,7 @@ en:
 
   store:
     index:
-      title_html:  "Your Pragmatic Catalog"
+      title_html:  "Your Fruit Catalog"
       add_html:    "Add to Cart"
 
   orders:
