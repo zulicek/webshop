@@ -1,0 +1,49 @@
+hr:
+
+  number:
+    currency:
+      format:
+        unit:      "$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+
+  errors:
+    template:
+      body:        "Došlo je do pogreške u sljedećim poljima:"
+      header:       
+        one:       "%{model} nije spremljen radi 1 pogreške"
+        other:     "%Radi {count} pogrešaka %{model} nije spremljen"
+
+  layouts:
+    application:
+      title:       "Voćni dućan"
+      home:        "Naslovnica"
+      questions:   "Pitanja"
+      news:        "Vijesti"
+      contact:     "Kontakt"
+
+  carts:
+    cart:
+      title:       "Tvoja košarica"
+      empty:       "Isprazni košaricu"
+      checkout:    "Završi kupovinu"
+
+  store:
+    index:
+      title_html:  Tvoj voćni katalog
+      add_html:    "Dodaj u košaricu"
+
+  orders:
+    new:
+      legend:       "Molim unesite svoje podatke"
+    form:
+      name:         "Ime i prezime"
+      address_html: "Adresa"
+      email:        "E-mail"
+      pay_type:     "Način plaćanja"
+      pay_prompt_html: "Odaberite način plaćanja"
+      submit:       "Potvrdi narudžbu"
+
+  thanks:          "Zahvaljujemo na kupnji"
