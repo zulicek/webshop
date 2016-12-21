@@ -32,7 +32,12 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
     position: absolute;
     top: 0; 
     left: 0;
-    height: 80px;
+    width: 225px;
+  }
+
+  .time {
+    position: absolute;
+    right: 0px;
   }
 }
 
@@ -61,7 +66,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
 //
   #side {
-    width: 120px;
+    width: 200px;
     padding: 1em 1em;
     background: #141;
 
@@ -86,6 +91,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
     ul {
       padding: 0;
+      margin-top:40px;
 
       li {
         list-style: none;
